@@ -31,12 +31,12 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
+    'django.contrib.admin', # Permite hacer algunos crud's básicos
+    'django.contrib.auth', # Permite hacer autenticaciones y loguot 
+    'django.contrib.contenttypes', # Sirve para relacionar modelos con otros modelos, como si fuera una foreign key (llave foránea), pero con la ventaja de que el tipo de modelo con el cual lo relacionemos puede ser diferente para cada entrada de la tabla.
+    'django.contrib.sessions', # Manejo de sesiones 
+    'django.contrib.messages', # Menejo de mensajes
+    'django.contrib.staticfiles', # Para presentar archivos de javascripts, css, etc. (es decir archivos estáticos), recursos web, etc. 
 ]
 
 MIDDLEWARE = [
